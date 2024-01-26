@@ -16,4 +16,5 @@ class MainViewModel {
     func numberOfRows(in section : Int) -> Int {
         return 10
     }
+    
 }

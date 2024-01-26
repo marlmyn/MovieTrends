@@ -19,6 +19,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         configView()
+        print("Hi")
     }
 
     func configView() {
