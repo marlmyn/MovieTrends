@@ -30,7 +30,7 @@ class MainMovieCell: UITableViewCell {
         super.awakeFromNib()
         backView.addBorder(color: .label, width: 1)
         backView.round()
-        
+        backView.backgroundColor = UIColor.lightGray
         movieImageView.round(5)
     }
 
